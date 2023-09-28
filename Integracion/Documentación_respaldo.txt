@@ -1,0 +1,81 @@
+Documentación de Respaldo:
+ Aplicación Web de Gestión de Tareas 
+Introducción
+Esta documentación de respaldo proporciona una visión general de la aplicación web de Gestión de Tareas desarrollada como parte del proyecto. Esta aplicación permite a los usuarios gestionar sus tareas de manera eficiente, con un Front End desarrollado en React + Node.js (Vite.js), un Backend basado en Python + Django, y una base de datos SQL (SQLite en este caso) para el almacenamiento de datos.
+
+Descripción General
+
+La aplicación de Gestión de Tareas tiene como objetivo proporcionar a los usuarios una plataforma para crear, editar, eliminar y marcar como completadas sus tareas pendientes. Para lograr esto, se ha utilizado una combinación de tecnologías, incluyendo React, Django y SQL.
+
+Operatividad
+
+Lista de Tareas
+
+Una vez en la interface de la App, el usuario tiene la posibilidad de crear una lista de tareas.
+Creación y Edición de Tareas
+
+Los usuarios podrán crear nuevas tareas y editar las existentes, incluyendo la asignación de un  título y una descripción.
+
+Eliminación de Tareas
+
+Los usuarios podrán eliminar tareas que ya no deseen mantener.
+
+API Restful
+
+Se ha implementado una API Restful utilizando Django Rest Framework + Axios para permitir la comunicación entre el Frontend y el Backend para las operaciones de creación, edición, eliminación y obtención de tareas.
+
+Requisitos Técnicos Frontend en React + Node.js
+ 
+El Frontend de la aplicación se desarrolló utilizando React, incluyendo componentes reutilizables y una navegación fluida entre las diferentes vistas mediante Vite.js, un servidor de desarrollo local utilizado de forma predeterminada por Vue y para las plantillas de proyectos de React.
+
+Backend en Python + Django
+
+El Backend se implementó utilizando Python y Django, incluyendo modelos de datos para representar las tareas y usuarios, así como vistas y controladores para gestionar las operaciones CRUD.
+
+Base de Datos con SQL
+
+Se utiliza una base de datos SQL (SQLite en este caso) para almacenar la información de las  tareas y los usuarios.
+
+Autenticación y Autorización
+
+Se implementa un sistema de autenticación y autorización para crear, consultar, actualizar y borrar registros mediante la creación de un super usuario (superuser).
+
+Comunicación entre Frontend y Backend
+
+Se utiliza Django Rest Framework para crear una API RESTful que permite la comunicación eficiente entre el Frontend y el Backend, combinando con la librería “Axios” de JavaScript lo que nos permite hacer peticiones o llamadas al contenido de un enlace HTTP.
+Instrucciones para Ejecutar el Proyecto
+
+Para ejecutar el proyecto en su entorno local, siga estos pasos:
+
+1.	Clona el repositorio desde [URL del repositorio].
+
+2.	Instala las dependencias del Frontend utilizando npm (o yarn) en la carpeta "Integración".
+
+3.	Instala las dependencias del Backend utilizando pip install –r requirements.txt en la carpeta "Integración".
+4.	Configura la base de datos SQL (por ejemplo, SQLite).
+
+5.	Ejecuta las migraciones de la base de datos para crear las tablas necesarias.
+
+6.	Inicia el servidor Backend utilizando Python manage.py runserver en la consola desde la dependencia “/Integracion”
+
+7.	Inicia el servidor Frontend utilizando npm run dev en la consola desde la terminal “/client”
+
+
+Referencias
+
+•	Enlaces a recursos o bibliotecas utilizadas en el proyecto:
+https://vitejs.dev/
+https://tailwindcss.com/
+https://animate.style/
+•	El proyecto incluye la carpeta raíz “Integración” y las sub carpetas “client” para el Frontend y las carpetas “trabajo_grupal” y “task” para el Backend.
+•	
+
+Contacto y Soporte
+
+Anabelagallegos0@gmail.com
+
+Ruiz.marcelo2@gmail.com
+
+Benjaguerrero23@gmail.com
+
+
